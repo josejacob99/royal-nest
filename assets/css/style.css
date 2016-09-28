@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'myriad-bold';
+  src: url("../fonts/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+  font-family: 'myriad-regular';
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+@font-face {
+  font-family: 'myriad-semibold';
+  src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-color: #f8f8f8;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+body *, body *:before, body *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e6f3e9;
+}
+body header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body header .website-logo {
+  height: 150px;
+  width: 74px;
+  margin: 26px 52px;
+  background: url("../images/muckumkal-logo.png") no-repeat center;
+}
+body header .website-name {
+  height: 202px;
+  width: 368px;
+  margin: auto;
+  background: url("../images/royal-nest-logo.png") no-repeat center;
+}
+body main .container-tariff-contact {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #18502d;
+  padding: 50px 0;
+}
+body main .container-tariff-contact:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .container-tariff-contact p {
+  color: #e8e7ec;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 8px 22px 8px 22px;
+  text-indent: 36px;
+}
+body main .container-tariff-contact h4 {
+  color: #e8e7ec;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 84px;
+  line-height: 24px;
+}
+body main .container-tariff-contact h4 span {
+  font-size: 20px;
+}
+body main .container-tariff-contact .about-image {
+  width: 314px;
+  height: 364px;
+  margin: auto;
+  margin-top: 50px;
+  background: url("../images/building.png") no-repeat center;
+}
+body main .container-tariff-contact a {
+  width: 324px;
+  background-color: #62751b;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  box-shadow: 1px 1px 4px -1px #060606;
+  padding: 16px;
+  margin-top: -2px;
+}
+body main .container-tariff-contact a:hover {
+  background-color: #985006;
+}
+body main .container-image {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #18502d;
+  height: 338px;
+  background: url("../images/lake.png") no-repeat center;
+  background-size: cover;
+}
+body main .container-image:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .container-service-contact {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #18502d;
+  padding-bottom: 50px;
+}
+body main .container-service-contact:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .container-service-contact .content {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+body main .container-service-contact .content:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body main .container-service-contact .content h2 {
+  color: #e8e7ec;
+  font-size: 22px;
+  padding: 18px 0;
+}
+body main .container-service-contact .content p {
+  color: #e8e7ec;
+  font-size: 16px;
+  text-indent: 36px;
+  line-height: 24px;
+}
+body main .container-service-contact .content h1 {
+  font-family: myriad-semibold;
+  font-size: 32px;
+  text-align: center;
+  color: #e8e7ec;
+}
+body main .container-service-contact .content h3 {
+  font-family: myriad-semibold;
+  font-size: 22px;
+  text-align: center;
+  color: #e8e7ec;
+  padding: 6px;
+}
+body main .container-service-contact .content table {
+  border: 2px solid #e8e7ec;
+  border-collapse: collapse;
+  width: 100%;
+}
+body main .container-service-contact .content td {
+  border: 2px solid #e8e7ec;
+  color: #e8e7ec;
+  font-size: 16px;
+  text-align: left;
+  padding: 12px 12px;
+}
+body main .container-service-contact .content th {
+  border: 2px solid #e8e7ec;
+  color: #e8e7ec;
+  font-size: 16px;
+  padding: 4px;
+  text-align: center;
+}
+body main .container-service-contact .content th span {
+  display: block;
+  font-size: 12px;
+}
+body main .container-service-contact .content ul {
+  padding: 12px;
+}
+body main .container-service-contact .content ul li p {
+  text-align: center;
+}
+body main .container-service-contact .content ul li p span {
+  font-family: myriad-semibold;
+  font-size: 18px;
+}
+body main .container-service-contact .content .contact-details h2 {
+  color: #e8e7ec;
+  font-size: 22px;
+  padding: 18px 0;
+}
+body main .container-service-contact .content .contact-details p {
+  color: #e8e7ec;
+  font-size: 16px;
+  text-indent: 0;
+  line-height: 24px;
+}
+body main .container-service-contact .content .side-image {
+  width: 220px;
+  height: 160px;
+  background-size: cover;
+  margin: 60px auto;
+}
+body main .container-service-contact .content .one {
+  background: url("../images/room-image01.png") no-repeat center;
+}
+body main .container-service-contact .content .two {
+  background: url("../images/room-image02.png") no-repeat center;
+}
+body main .container-service-contact .btn-home {
+  width: 124px;
+  background-color: #62751b;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 22px auto;
+  font-size: 16px;
+  box-shadow: 1px 1px 4px -1px #060606;
+  padding: 16px;
+}
+body main .container-service-contact .btn-home:hover {
+  background-color: #985006;
+}
+body footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+body footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body footer p {
+  text-align: center;
+  padding: 34px;
+}
